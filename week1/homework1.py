@@ -1,3 +1,4 @@
+#编写一个函数，调用函数返回四位不含零的随机数
 import random
 def two(s):
     m=0

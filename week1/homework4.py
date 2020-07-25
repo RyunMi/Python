@@ -1,3 +1,4 @@
+#编写函数接受一个字符串，分别统计大小写字母、数字、其他字符个数，利用元组形式返回结果
 def statis(s):
     count1=count2=count3=count4=0
     for i in s:
