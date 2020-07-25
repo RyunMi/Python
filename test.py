@@ -5,3 +5,4 @@ print('\'Hello, \\\'Adam\\\'\'')
 print('r\'Hello, \"Bart\"\'')
 print('''r\'\'\'Hello,
 Lisa!\'\'\'''')
+print("123\t456\n")
