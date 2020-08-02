@@ -22,5 +22,8 @@ class Student(object):
             return self.m
         if self.e >= self.c and self.e>= self.m:
             return self.e
-""" lisa=Student('Lisa',17,100,100,100)
-print(lisa.get_name(),lisa.get_age(),lisa.get_course()) """
+""" 输入举例：
+lisa=Student('Lisa',17,100,99,98)
+print(lisa.get_name(),lisa.get_age(),lisa.get_course())
+结果： 
+Lisa 17 100 """
