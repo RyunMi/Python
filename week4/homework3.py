@@ -12,8 +12,7 @@ set_info = Setinfo(A)
 print set_info.add_setinfo('f')
 print set_info.get_intersection(B)
 print set_info.get_union(B)
-print set_info.del_difference(B)
- """
+print set_info.del_difference(B)"""
 class Setinfo(object):
     def __init__(self,set):
         self.set = set
@@ -33,3 +32,8 @@ print(set_info.add_setinfo('f'))
 print(set_info.get_intersection(B))
 print(set_info.get_union(B))
 print(set_info.del_difference(B))
+""" 结果：
+{1, 2, 3, 4, 5, 'f'}
+{3, 5}
+{1, 2, 3, 4, 5, 6, 'f'}
+{'f', 1, 2, 4} """

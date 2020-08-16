@@ -10,8 +10,7 @@ list_info = Listinfo([44, 222, 111, 333, 454, 'sss', '333'])
 print list_info.add_key('1111')
 print list_info.get_key(4)
 print list_info.update_list(['1', '2', '3'])
-print list_info.del_key()
- """
+print list_info.del_key()"""
 class Listinfo(object):
     def __init__(self,list):
         self.list = list
@@ -31,3 +30,8 @@ print(list_info.add_key('1111'))
 print(list_info.get_key(4))
 print(list_info.update_list(['1','2','3']))
 print(list_info.del_key())
+""" 结果：
+[44, 222, 111, 333, 454, 'sss', '333', '1111']
+454
+[44, 222, 111, 333, 454, 'sss', '333', '1111', '1', '2', '3']
+3 """

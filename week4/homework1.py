@@ -13,8 +13,8 @@ A = dictclass({'a': 1, 'b': 2})
 print A.get_dict('c')
 print A.del_dict('c')
 print A.get_key()
-print A.updata_dict({'c': 3, 'd': 4})
- """class dictclass(object):
+print A.updata_dict({'c': 3, 'd': 4}) """
+class dictclass(object):
     def __init__(self,dict):
         self.dict = dict
     def del_dict(self,key):
@@ -39,3 +39,8 @@ print(A.get_dict('c'))
 print(A.del_dict('c'))
 print(A.get_key())
 print(A.update_dict({'c':3,'d':4}))
+""" 结果：
+not found
+not found
+dict_keys(['a', 'b'])
+{'a': 1, 'b': 2, 'c': 3, 'd': 4} """
